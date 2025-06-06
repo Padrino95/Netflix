@@ -1,0 +1,13 @@
+.width{
+    width: 29%;
+    margin: 14rem auto;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.white :is(h1, p){
+    color: white;
+}
+
+
+/* mirar css module en gebnially */

@@ -1,5 +1,6 @@
 import './App.css'
 import Header from './components/Header'
+import MainInfo from './components/MainInfo'
 
 function App() {
 
@@ -7,6 +8,7 @@ function App() {
     <>
       <div className="background-wrapper">
         <Header />
+        <MainInfo />
       </div>
     </>
   )
