@@ -1,0 +1,42 @@
+.btn {
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.red {
+  background-color: #e50914;
+}
+
+.grey {
+  background-color: grey;
+}
+
+.btn:hover {
+  background-color: #f6121d;
+}
+
+.small {
+  padding: 8px 16px;
+}
+
+.big {
+  padding: 0.8rem 2rem;
+  font-size: 1.2rem;
+}
+
+.medium {
+  padding: 0.8rem 1.5rem;
+  font-size: 0.9rem;
+}
+
+.botonNuevo {
+  color: red;
+  background-color: blue;
+}

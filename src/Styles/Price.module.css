@@ -1,0 +1,15 @@
+.price {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(to right, #1f1633, #131737);
+    color: white;
+    padding: 16px 24px;
+    border-radius: 12px;
+    width: 92%;
+    margin: auto;
+}
+
+.title{
+    font-size: 1.3rem;
+}

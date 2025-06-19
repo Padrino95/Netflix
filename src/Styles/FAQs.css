@@ -1,0 +1,48 @@
+.faq-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 88%;
+  margin: auto;
+  padding-top: 2rem;
+}
+
+.faq {
+  background-color: #303030;
+  color: white;
+  padding: 1rem;
+  border: none;
+  border-bottom: 1px solid #000;
+  position: relative;
+  margin-top: 0.4rem;
+}
+
+.faq summary {
+  list-style: none;
+  font-size: 1.2rem;
+  font-weight: 400;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.faq summary::-webkit-details-marker {
+  display: none;
+}
+
+.faq .icon {
+  font-size: 2rem;
+  transition: transform 0.3s ease;
+}
+
+.faq[open] .icon {
+  content: "×";
+  transform: rotate(45deg);
+}
+
+.faq .content {
+  margin-top: 1rem;
+  font-size: 1rem;
+  line-height: 1.6;
+}
